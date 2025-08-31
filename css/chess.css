@@ -1,0 +1,27 @@
+ body {
+            /* Centers the board on the page */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        
+        table {
+            border-collapse: collapse; /* Makes the borders of the cells touch */
+            border: 4px solid #333;
+        }
+
+        td {
+            width: 60px;
+            height: 60px;
+        }
+        
+        .white {
+            background-color: #eeeed2;
+        }
+        
+        .black {
+            background-color: #769656;
+        }
